@@ -1,0 +1,29 @@
+{
+  "name": "semana1",
+  "version": "1.0.0",
+  "description": "Primer ejercicio de nodeJS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon --watch ./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MelannyJutinico/appnodejs.git"
+  },
+  "keywords": [
+    "exports",
+    "modules"
+  ],
+  "author": "Meru",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MelannyJutinico/appnodejs/issues"
+  },
+  "homepage": "https://github.com/MelannyJutinico/appnodejs#readme",
+  "devDependencies": {
+    "jsonserver": "^0.1.6",
+    "nodemon": "^2.0.20"
+  }
+}
